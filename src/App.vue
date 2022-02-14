@@ -10,11 +10,15 @@ import Home from "views/Home.vue";
 </script>
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
   <Home />
 </template>
 
 <style lang="scss">
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

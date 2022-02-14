@@ -20,45 +20,27 @@ const count = ref(0);
 
 <template>
   <h1>Vue3 + Ts + Sass + Pinia + Axios 开发环境</h1>
-
   <p>
-    Recommended IDE setup:
-    <a href="https://code.visualstudio.com/" target="_blank">VSCode</a>
-    +
-    <a href="https://github.com/johnsoncodehk/volar" target="_blank">Volar</a>
+    当前模板地址：<a href="https://github.com/3068495230/vite-vue">GitHub</a>
   </p>
-
-  <p>See <code>README.md</code> for more information.</p>
-
   <p>
-    <a href="https://vitejs.dev/guide/features.html" target="_blank">
-      Vite Docs
-    </a>
-    |
-    <a href="https://v3.vuejs.org/" target="_blank">Vue 3 Docs</a>
+    当前模板开发记录：<a
+      href="https://www.yuque.com/docs/share/9d19518e-23ad-4e36-b3ed-26f69e185cfb?#"
+      target="_blank"
+      >语雀</a
+    >
   </p>
-
-  <button type="button" @click="count++">count is: {{ count }}</button>
   <p>
-    Edit
-    <code>components/HelloWorld.vue</code> to test hot module replacement.
+    作者：<a href="https://www.yuque.com/xiaochens" target="_blank">achens</a>
   </p>
+  <button type="button" @click="count++">计数器：count is: {{ count }}</button>
 </template>
 
 <style scoped lang="scss">
-a {
-  color: #42b983;
-}
-
-label {
-  margin: 0 0.5em;
-  font-weight: bold;
-}
-
-code {
-  background-color: #eee;
-  padding: 2px 4px;
-  border-radius: 4px;
-  color: #304455;
+p {
+  margin: 5px;
+  a {
+    color: #42b983;
+  }
 }
 </style>

@@ -17,7 +17,7 @@ let { get } = user;
 </script>
 
 <template>
-  <div>关于</div>
+  <h1>Vue3 + Ts + Sass + Pinia + Axios 开发环境</h1>
   <p>
     Pinia 中 state 的 Name：<span>{{ name }}</span> 状态
   </p>
@@ -28,7 +28,10 @@ let { get } = user;
 </template>
 
 <style scoped lang="scss">
-span {
-  color: orange;
+p {
+  margin: 5px;
+  span {
+    color: orange;
+  }
 }
 </style>
