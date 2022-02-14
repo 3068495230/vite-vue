@@ -31,7 +31,7 @@ let { get } = user;
 p {
   margin: 5px;
   span {
-    color: orange;
+    color: #42b983;
   }
 }
 </style>

@@ -1,7 +1,7 @@
 /*
  * @Author: achens
  * @Date: 2022-02-13 17:22:31
- * @LastEditTime: 2022-02-13 17:53:46
+ * @LastEditTime: 2022-02-14 23:47:33
  * @LastEditors: Please set LastEditors
  * @Description:
  */
@@ -22,7 +22,7 @@ const routes: Array<RoutesItem> = [
     // 根路径，也就是默认显示页面
     path: "/",
     // 重定向
-    redirect: "/home",
+    redirect: "/helloWorld",
     // 显示组件
     component: () => import("comps/HelloWorld.vue"),
   },
